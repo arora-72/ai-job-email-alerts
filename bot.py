@@ -20,6 +20,7 @@ from app.config import (
 )
 from app.email_jobs import send_digest_email, send_job_summary_email, send_test_email
 from app.google_sheets import get_jobs_for_applied_date, get_jobs_for_day_offset, get_jobs_for_today
+from app.greenhouse_jobs import run_greenhouse_job_search
 from app.jobspy_jobs import run_jobspy_job_search
 
 
@@ -120,6 +121,12 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Send a plain test email using the configured SMTP settings",
     )
+    parser.add_argument(
+        "--source",
+        choices=["jobspy", "greenhouse", "both"],
+        default="jobspy",
+        help="Job source to run: jobspy, greenhouse, or both. Default: jobspy",
+    )
     return parser.parse_args()
 
 
@@ -190,7 +197,7 @@ def main() -> None:
             )
         return
 
-    jobs = run_jobspy_job_search(
+    sheets_kwargs = dict(
         max_results=args.max_jobs,
         max_jobs_per_day=args.max_jobs_per_day,
         save_to_sheets=not args.skip_sheets_save,
@@ -198,11 +205,21 @@ def main() -> None:
         sheets_spreadsheet_ref=args.sheets_url,
         sheets_tab_name=args.sheets_tab,
         archived_sheets_tab_name=args.archive_tab,
-        site_names=args.jobspy_site or JOBSPY_SITES,
-        hours_old=args.hours_old,
-        country_indeed=args.country_indeed,
-        exclude_big_companies=args.exclude_big_companies,
     )
+
+    jobs: list = []
+
+    if args.source in ("jobspy", "both"):
+        jobs = run_jobspy_job_search(
+            **sheets_kwargs,
+            site_names=args.jobspy_site or JOBSPY_SITES,
+            hours_old=args.hours_old,
+            country_indeed=args.country_indeed,
+            exclude_big_companies=args.exclude_big_companies,
+        )
+
+    if args.source in ("greenhouse", "both"):
+        run_greenhouse_job_search(**sheets_kwargs)
 
     if args.send_email:
         was_sent = send_job_summary_email(

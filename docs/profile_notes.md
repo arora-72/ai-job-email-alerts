@@ -1,56 +1,358 @@
-# Profile Notes Template
+# Profile Notes
 
-Replace the example bullets below with your own information.
-
-Name: Your Name
+Name: Garima Sondhi
 
 Education:
-- Your degree
-- Your school
+- MBA (STEM-designated), Carnegie Mellon University, Tepper School of Business — Class of 2026, graduating May 2026
+- Concentrations: Strategy, Business Technologies, AI for Business
+- Honors: James M. & Ellen Walton Dean's Fellowship, Forté Fellowship
+- B.Tech in Computer Science, Vellore Institute of Technology (VIT, ranked #8 in India), GPA 8.46/10, June 2020
 
 Target roles:
-- Product Manager
-- Associate Product Manager
-- Product Operations
+- Technical Program Manager
+- Technical Project Manager
+- Senior Program Manager
+- Associate Technical Program Manager
+- TPM
+- Strategy and Operations Manager
+- Strategy & Operations Associate
+- Business Operations Manager
+- BizOps Manager
+- Chief of Staff
+- Engagement Manager
+- Senior Engagement Manager
+- AI Engagement Manager
+- Solutions Engagement Manager
+- Customer Solutions Manager
+- Implementation Manager
+- Senior Consultant
+- Associate Consultant
+- Senior Associate
+- MBA Associate
+- MBA Pathways Operations Manager
+- Operations Manager
+- Senior Operations Manager
+- Program Manager
+- Product Operations Manager
+- Product Operations Lead
+- Strategic Initiatives Manager
+- Transformation Manager
+- Strategic Transformation Manager
+- Project Manager
+- Senior Project Manager
+- Delivery Manager
+- AI Solutions Manager
+- AI Program Manager
+- Customer Success Manager (Enterprise / Strategic)
+- Partner Operations Manager
+- GTM Strategy Manager
+- Business Operations Lead
+- Strategy Manager
+- Workday Consultant
 
 Preferred locations:
-- New York
-- Boston
-- Remote
+- Pittsburgh, PA
+- San Francisco, CA
+- San Francisco Bay Area
+- South San Francisco, CA
+- Palo Alto, CA
+- Mountain View, CA
+- Sunnyvale, CA
+- Menlo Park, CA
+- Redwood City, CA
+- San Jose, CA
+- Seattle, WA
+- Bellevue, WA
+- Redmond, WA
+- New York, NY
+- Manhattan, NY
+- Jersey City, NJ
+- Boston, MA
+- Cambridge, MA
+- Austin, TX
+- Dallas, TX
+- Chicago, IL
+- Los Angeles, CA
+- Washington, DC
+- Arlington, VA
+- Atlanta, GA
+- Pittsburgh, PA
+- Remote (US-based)
+- Hybrid (US-based)
+- United States (open to relocation anywhere in the US)
 
 Strong fit keywords:
-- analytics
-- strategy
+- MBA
+- MBA new grad
+- MBA full time
+- MBA pathways
+- MBA associate
+- visa sponsorship
+- H-1B sponsorship
+- sponsorship available
+- will sponsor
+- technical program manager
+- TPM
+- program manager
+- project manager
+- strategy and operations
+- strategy & operations
+- S&O
+- business operations
+- BizOps
+- chief of staff
+- engagement manager
+- implementation manager
+- delivery manager
+- transformation
+- digital transformation
+- ERP
+- HCM
+- Workday
+- ServiceNow
+- Salesforce
+- Azure
+- AWS
+- GCP
+- AI
+- artificial intelligence
+- machine learning
+- ML
+- LLM
+- generative AI
+- GenAI
+- prompt engineering
+- agentic AI
+- AI/ML
+- MLOps
+- enterprise SaaS
+- enterprise software
+- cross-functional
+- stakeholder management
+- executive communication
+- C-suite
+- director-level
+- governance
+- KPI
 - roadmap
-- experimentation
-- early career
+- OKRs
+- go-to-market
+- GTM
+- pricing strategy
+- market sizing
+- financial modeling
+- ROI
+- business case
+- change management
+- process optimization
+- process automation
+- workflow automation
+- operations
+- consulting
+- management consulting
+- strategy consulting
+- post-MBA
+- early career manager
+- 3-5 years experience
+- 4+ years experience
+- 5+ years experience
+- 2-5 years
+- mid-level
 
 Preferred company type:
-- startup
-- mid-size company
+- large public technology company (FAANG-tier with strong H-1B sponsorship history)
+- top-tier financial services firm (asset management, banking, insurance)
+- top-tier management consulting firm (MBB, Big 4 strategy practice, EY-Parthenon, Strategy&)
+- mid-stage and late-stage AI / ML company (Series B through pre-IPO)
+- enterprise SaaS company (publicly traded or unicorn)
+- foundation model lab
+- data infrastructure / data platform company
+- companies with proven track record of H-1B sponsorship
+- companies with formal MBA recruiting pathways
+- Forté Fellowship sponsor companies
+- Tepper alumni-rich employers
 
 Preferred industries:
-- saas
-- ai
+- artificial intelligence
+- machine learning
+- generative AI
+- foundation models
+- AI infrastructure
+- MLOps / data labeling / model evaluation
+- enterprise SaaS
+- enterprise software
+- cloud computing
+- data infrastructure
+- financial services
+- asset management
+- wealth management
 - fintech
+- banking
+- insurance
+- management consulting
+- strategy consulting
+- HR tech
+- workforce technology
+- developer tools
+- cybersecurity (enterprise)
+- semiconductors (only at large companies with H-1B sponsorship)
+- healthcare technology (enterprise SaaS, not clinical)
 
 Avoid:
-- senior
-- staff
+- senior director
 - director
+- VP
+- vice president
+- principal
+- staff
+- senior staff
+- distinguished
+- head of
+- CTO
+- CEO
+- CFO
+- chief
+- founder
+- founding
+- 10+ years
+- 12+ years
+- 15+ years
+- 20+ years
+- intern
+- internship
+- co-op
+- summer associate
+- new grad engineer
+- entry level engineer
+- junior
+- recruiter
+- talent acquisition
 - recruiting agency
+- staffing agency
+- contract recruiter
+- contract-to-hire
+- 1099
+- W2 contract
+- corp-to-corp
+- C2C
+- third-party agency
+- US citizen only
+- US citizens only
+- must be US citizen
+- citizenship required
+- security clearance
+- secret clearance
+- top secret
+- TS/SCI
+- public trust clearance
+- DOD clearance
+- government clearance required
+- ITAR
+- defense contractor
+- no visa sponsorship
+- not able to sponsor
+- unable to sponsor
+- cannot sponsor
+- no sponsorship available
+- sponsorship not available
+- software engineer (pure SWE individual contributor)
+- frontend engineer
+- backend engineer
+- full stack engineer
+- mobile engineer
+- iOS engineer
+- Android engineer
+- DevOps engineer
+- SRE
+- site reliability engineer
+- data engineer (pure IC)
+- data scientist (pure IC, modeling-only)
+- machine learning engineer (pure IC)
+- network engineer
+- hardware engineer
+- field engineer
+- datacenter technician
+- infrastructure engineer (physical / network)
+- QA engineer
+- test engineer
+- UX designer
+- visual designer
+- graphic designer
+- UI designer
+- product designer
+- copywriter
+- content writer
+- social media manager
+- sales development representative
+- SDR
+- BDR
+- account executive
+- account manager (sales-quota-carrying)
+- inside sales
+- outside sales
+- field sales
+- pre-sales engineer
+- sales engineer (quota-carrying)
+- solutions architect (pure technical IC)
+- nurse
+- clinician
+- physician
+- teacher
+- adjunct
+- professor
+- postdoc
+- PhD required
+- MD required
+- bartender
+- driver
+- warehouse
 
 Resume highlights:
-- Add short bullets about your best experience.
-- Mention results with numbers if you have them.
-- Mention the kind of work you want more of.
+- Led $10M client transition from a competing consulting firm to Deloitte; sustained 95% client satisfaction across a 6-month strategic HR migration to Workday.
+- Owned $2M+ digital transformation roadmap across 5 workstreams at Deloitte; achieved 100% on-time delivery with less than 3% budget variance.
+- Persuaded Fortune 100 client leadership to approve a $1.5M Workday platform migration through ROI framing across 10+ director-level steering sessions.
+- Spearheaded ServiceNow–ERP integration at IBM that automated 60% of manual workflows and reduced client response time from 24 hours to 8 hours.
+- Standardized HCM, payroll, and finance integration protocols across 12 client projects at IBM; reduced configuration errors by 40%.
+- Trained 30+ professionals on Workday modules; contributed to 100% staffing onto billable client projects, expanding practice revenue capacity.
+- Built end-to-end Workday recruitment system at IBM; eliminated $200K annually in third-party hosting costs and improved candidate screening efficiency by 35%.
+- Designed proactive integration monitoring tool with anomaly alerts at IBM; reduced manual oversight team size by 60%.
+- Built AI-powered multi-criteria scoring model at Second Wind Pro across 40+ market analyses; improved deal conversion by 20%.
+- Sized $4B+ athlete services market and identified 3 high-ROI service lines at Second Wind Pro; drove 4x increase in investor meetings through repositioned narrative.
+- Proposed AI-driven auto-remediation solution at Deloitte projected to reduce cloud costs by 15% (~$10M); adopted as Innovation Office's first AI initiative in Platform space.
+- Served as Scrum Master for cross-functional teams using Azure DevOps and Jira; reduced product backlog by 30% and improved delivery velocity by 14% at IBM.
 
 Experience themes:
-- user research
-- product strategy
-- analytics
-- cross-functional work
+- technical program management
+- enterprise transformation delivery
+- ERP and HCM implementation (Workday end-to-end)
+- ServiceNow and Salesforce platform integration
+- AI / ML applied to business problems (scoring models, anomaly detection, auto-remediation)
+- cross-functional execution across HR, IT, Finance, Compliance, Engineering
+- executive-level stakeholder management and influence
+- ROI-based business case development
+- governance, risk management, and steering committee facilitation
+- process automation and workflow standardization
+- change management and organizational adoption
+- market sizing, financial modeling, and unit economics
+- go-to-market strategy and partnership development
+- agile delivery (Scrum Master, sprint planning, backlog grooming)
+- vendor management and third-party integration
+- data analysis, dashboarding (Power BI, Tableau), and SQL-driven reporting
+- prompt engineering and LLM-based tool building
+- training, mentorship, and team capability building
+- consulting engagement leadership (Deloitte, IBM)
 
 Notes:
-- prefer jobs that match my experience level
-- prefer roles with clear ownership
+- Visa sponsorship is a hard requirement. I need H-1B sponsorship for full-time roles starting May/June 2026. Aggressively filter out roles that explicitly state "no sponsorship", "must be US citizen", or any US clearance requirement. If a JD is silent on sponsorship, score it normally and let me decide.
+- Career level: post-MBA with ~4 years prior full-time experience. Target Manager / Senior Associate / Associate / Senior level titles. Hard reject anything titled Senior Director, Director, VP, Principal, Staff, Distinguished, Head of, Chief, Founder. Hard reject anything requiring 10+ years of experience.
+- Hard reject internships, co-ops, summer roles, and entry-level analyst roles. Class of 2026 full-time start only.
+- Hard reject pure individual-contributor engineering roles (SWE, ML engineer, data engineer, data scientist, SRE, DevOps, hardware, network). I have a CS undergrad but my MBA lane is management, strategy, and program delivery — not hands-on coding.
+- Hard reject staffing agencies, recruiting firms, contract roles (W2 contract, C2C, 1099, corp-to-corp), and recruiter / talent acquisition positions.
+- Hard reject defense contractors and roles requiring any US security clearance (Secret, Top Secret, TS/SCI, Public Trust, DOD, ITAR).
+- Currently based in Pittsburgh, PA. Open to relocation anywhere in the US. Strongly prefer SF Bay Area, Seattle area (Bellevue / Redmond), NYC, Boston, Austin. Remote roles welcome if the hiring entity is US-based and willing to sponsor.
+- Top target companies (any role within these that fits the target-roles list above is a strong match): BlackRock, Microsoft, Amazon, Google, Meta, Apple, Databricks, Snowflake, Snorkel AI, Scale AI, Labelbox, Cohere, Writer, Glean, Weights & Biases, Toloka AI, Cleanlab, ServiceNow, Workday, Salesforce, Atlassian, Stripe, Adobe, NVIDIA, AMD, Cisco, Deloitte (US), Accenture, EY-Parthenon, Strategy&, IBM, JPMorgan Chase, Goldman Sachs, Morgan Stanley, Citadel, Two Sigma, Bridgewater, Visa, Mastercard, American Express, Capital One, Fidelity, Vanguard, Wells Fargo, Bank of America, McKinsey, Bain, BCG, Thermo Fisher, Equifax, Wolters Kluwer, Afiniti.
+- Specific role types I am actively pursuing: MBA Full-Time Business Program Manager (Microsoft), MBA Pathways Operations Manager (Amazon), Associate Technical Project Manager (BlackRock SMA Solutions — I have an active Director-level referral), Engagement Manager at AI/ML companies (Snorkel AI, Scale AI, Labelbox), Strategy & Operations Manager (Databricks, Snowflake, ServiceNow, Workday).
+- Avoid for fit reasons (not safety / sponsorship): pure product management roles unless they are Product Operations or AI Product Manager at enterprise scale; pure sales / quota-carrying roles; physical infrastructure / datacenter operations / network engineering (I do not have CCNA / CCNP or hardware experience).
+- Strong fit signals beyond the keyword list: anything mentioning Workday, ServiceNow, Salesforce, ERP migration, HCM, post-merger integration, carve-out, transformation roadmap, governance cadence, RAID logs, steering committee, ROI business case, AI/ML deployment to enterprise customers, prompt engineering, LLM evaluation, model lifecycle, data labeling, MLOps, customer onboarding for technical products, partner enablement.
+- Technical skills: Workday (HCM, Integrations, Studio — all certified), ServiceNow (certified), Azure (AZ-900 certified), SQL, Power BI, Tableau, Excel (Advanced certified), Microsoft Project, Smartsheet, Jira, Microsoft Azure DevOps, Salesforce (basic), OpenAI, prompt engineering, agentic AI orchestration, dashboarding, data visualization, financial modeling, market sizing, executive storytelling.
+- Background context for the AI scorer: I am a CMU Tepper MBA candidate with a CS undergrad and four years of consulting / enterprise technology delivery experience at IBM and Deloitte. My internship was at an early-stage athlete management startup (Second Wind Pro) where I led strategy, market sizing, AI tooling, and investor positioning. I am fluent in enterprise SaaS implementations, cross-functional program leadership, and AI-applied-to-business contexts. I am NOT a software engineer, data scientist, hardware engineer, or designer — please do not score those roles as fits regardless of tech keyword overlap.

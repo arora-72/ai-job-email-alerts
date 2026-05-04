@@ -16,6 +16,26 @@ OLLAMA_APPROVED_MAX_PER_RUN = 10
 DEFAULT_SHEETS_URL = ""
 DEFAULT_SHEETS_TAB = "Jobs"
 ARCHIVED_SHEETS_TAB = "Archived Jobs"
+# Maps display name -> Greenhouse board slug (verify at boards.greenhouse.io/SLUG)
+GREENHOUSE_COMPANIES: dict[str, str] = {
+    # Tier 1 — AI/ML Enterprise
+    "Scale AI": "scaleai",
+    "Cohere": "cohere",
+    "Glean": "glean",
+    "Writer": "writer",
+    "Labelbox": "labelbox",
+    "Weights & Biases": "wandb",
+    "Snorkel AI": "snorkelai",
+    # Tier 2 — HR Tech / ERP-adjacent (Workday cert advantage)
+    "Rippling": "rippling",
+    "Lattice": "lattice",
+    "Deel": "deel",
+    "Gusto": "gusto",
+    # Tier 3 — Enterprise SaaS / Strategy & Ops
+    "Databricks": "databricks",
+    "Stripe": "stripe",
+    "Atlassian": "atlassian",
+}
 JOBSPY_SITES = [
     "linkedin",
     "google",

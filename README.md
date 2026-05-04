@@ -27,7 +27,7 @@ You need:
 - a Google Sheet
 - a Google service account JSON file
 - an email account that can send SMTP mail
-- an Ollama API key if you want AI scoring
+- an OpenAI API key if you want AI scoring (uses GPT-4o-mini)
 
 ## Super Simple Setup
 
@@ -63,14 +63,21 @@ keys/google-credentials.json
 
 ### 5. Fill in your profile notes
 
-Open `docs/profile_notes.md`.
+Copy the example template and fill it in with your own details:
 
-Replace the example text with your own:
+```bash
+cp docs/profile_notes.example.md docs/profile_notes.md
+```
 
-- target roles
-- cities
-- keywords you like
-- keywords you do not want
+Then edit `docs/profile_notes.md` and add:
+
+- your target roles
+- your preferred cities
+- keywords you want to match
+- keywords you want to avoid
+- a few resume highlights so the AI understands your background
+
+This file is gitignored and will never be committed.
 
 ### 6. Make a Google Sheet
 
@@ -86,6 +93,8 @@ The bot will use these columns:
 - LinkedIn Link 1
 - LinkedIn Link 2
 - LinkedIn Link 3
+- AI Fit Score
+- AI Reason
 
 ### 7. Add your secrets
 
@@ -107,28 +116,61 @@ RECRUITING_BOT_SMTP_PORT="587"
 RECRUITING_BOT_SMTP_USERNAME="you@example.com"
 RECRUITING_BOT_SMTP_PASSWORD="your-app-password"
 RECRUITING_BOT_SMTP_USE_TLS="true"
-OLLAMA_API_KEY="your-key"
+OPENAI_API_KEY="your-openai-api-key"
 ```
 
 ## Run It
 
-Search for jobs and save them:
+### Job sources
+
+Use `--source` to control where jobs come from:
 
 ```bash
-python3 bot.py --max-jobs 12 --max-jobs-per-day 8 --hours-old 24 --sheets-url "YOUR_GOOGLE_SHEET_URL"
+# JobSpy only — searches LinkedIn, Indeed, Google (default)
+python3 bot.py --source jobspy --max-jobs 12 --sheets-url "YOUR_GOOGLE_SHEET_URL"
+
+# Greenhouse only — hits target company boards directly via the Greenhouse API
+python3 bot.py --source greenhouse --max-jobs 12 --sheets-url "YOUR_GOOGLE_SHEET_URL"
+
+# Both at once
+python3 bot.py --source both --max-jobs 12 --sheets-url "YOUR_GOOGLE_SHEET_URL"
 ```
 
-Send a digest email:
+Omitting `--source` defaults to `jobspy`.
+
+### Full example
+
+```bash
+python3 bot.py --source both --max-jobs 12 --max-jobs-per-day 8 --hours-old 24 --sheets-url "YOUR_GOOGLE_SHEET_URL"
+```
+
+### Send a digest email
 
 ```bash
 python3 bot.py --send-sheet-digest --sheets-url "YOUR_GOOGLE_SHEET_URL" --sheets-tab "Email Jobs"
 ```
 
-Send a test email:
+### Send a test email
 
 ```bash
 python3 bot.py --send-test-email --email-to you@example.com
 ```
+
+## Greenhouse Setup
+
+The Greenhouse source hits each company's public job board API directly — no scraping, no rate limits.
+
+To add or change target companies, edit `GREENHOUSE_COMPANIES` in `app/config.py`:
+
+```python
+GREENHOUSE_COMPANIES = {
+    "Databricks": "databricks",
+    "Stripe": "stripe",
+    # add more: "Company Name": "slug"
+}
+```
+
+The slug is the short ID in the company's Greenhouse URL. For example, `https://boards.greenhouse.io/databricks` has slug `databricks`. You can verify any slug by visiting `boards.greenhouse.io/SLUG` in your browser.
 
 ## Make It Yours
 
